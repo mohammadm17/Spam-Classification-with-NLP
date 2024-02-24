@@ -1,11 +1,9 @@
-# Spam-Classification-with-NLP
-This repository showcases a spam classification model for IMDb movie reviews using NLP techniques and Random Forest. With preprocessing steps like stop word removal and stemming, the model achieves a 98% accuracy. The code, dataset, and evaluation metrics are provided for easy reproducibility.
-Movie Review Spam Classification
+SMS Spam Classification
 
-This repository contains code for a spam classification model aimed at IMDb movie reviews. The model utilizes natural language processing (NLP) techniques and the Random Forest algorithm to classify reviews as spam or non-spam.
+This repository contains code for a spam classification model aimed at SMS messages. The model utilizes natural language processing (NLP) techniques and the Random Forest algorithm to classify messages as spam or non-spam.
 Dataset
 
-The dataset used for training and testing consists of IMDb movie reviews.
+The dataset used for training and testing is the SMS Spam Collection, a public set of labeled SMS messages collected for mobile phone spam research.
 Preprocessing
 
     Stop words and punctuation were removed using NLTK.
@@ -25,7 +23,7 @@ Evaluation
 Files
 
     spam_classification.ipynb: Jupyter notebook containing the code implementation.
-    imdb_reviews.csv: IMDb movie review dataset.
+    sms_spam_collection.csv: SMS Spam Collection dataset.
 
 Usage
 
